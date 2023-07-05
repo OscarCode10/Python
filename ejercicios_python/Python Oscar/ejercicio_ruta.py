@@ -1,0 +1,5 @@
+lunes=int(input("Ingrese el tiempo que hizo el lunes en minutos "))
+miercoles=int(input("Ingrese el tiempo que hizo el miércoles en minutos "))
+viernes=int(input("Ingrese el tiempo que hizo el viernes en minutos "))
+promedio=int((lunes+miercoles+viernes)/3)
+print(f"Su tiempo del lunes fue {lunes}, su tiempo del miércoles fue {miercoles} y su tiempo de viernes fue {viernes}. Su promedio es {promedio}")
